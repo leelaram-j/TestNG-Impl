@@ -7,31 +7,31 @@ public class testNGDay3
     @Test
     public void webLoginCar()
     {
-        System.out.print("Web Login");
+        System.out.println("day3.Web Login");
     }
-    @Test
+    @Test(groups="smoke")
     public void mobileLoginCar()
     {
-        System.out.println("Mobile login");
+        System.out.println("day3.Mobile login");
     }
     @Test
     public void mobileSignoutCar()
     {
-        System.out.println("Mobile loggout");
+        System.out.println("day3.Mobile loggout");
     }
-    @Test
+    @Test(groups="smoke")
     public void mobilePayCar()
     {
-        System.out.println("Mobile Pay");
+        System.out.println("day3.Mobile Pay");
     }
     @Test
     public void mobileCancelCar()
     {
-        System.out.println("mobile cancel");
+        System.out.println("day3.mobile cancel");
     }
     @Test
     public void LoginAPICar()
     {
-        System.out.println("REST API Login");
+        System.out.println("day3.REST API Login");
     }
 }

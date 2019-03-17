@@ -11,7 +11,7 @@
         <classes>
             <class name="com.testng.tutorial.testNGDay3">
             <methods>
-                <exclude name="mobile.*"/>
+                <!--<exclude name="mobile.*"/>-->
             </methods>
             </class>
         </classes>

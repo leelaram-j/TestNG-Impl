@@ -7,16 +7,16 @@ public class testNGDay4
     @Test
     public void webLoginHome()
     {
-        System.out.print("Web Login");
+        System.out.println("day4.Web Login");
     }
     @Test
     public void desktopLoginHome()
     {
-        System.out.print("Desktop login");
+        System.out.println("day4.Desktop login");
     }
-    @Test
+    @Test(groups="smoke")
     public void LoginAPIHome()
     {
-        System.out.print("REST API Login");
+        System.out.println("day4.REST API Login");
     }
 }
