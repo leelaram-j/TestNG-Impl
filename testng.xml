@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite 1">
+    <test name="TestNGTutorial">
+        <classes>
+            <class name="com.testng.tutorial.testNGDay1"/>
+            <class name="com.testng.tutorial.testNGDay2"/>
+        </classes>
+    </test>
+    <test name = "Car Loan">
+        <classes>
+            <class name="com.testng.tutorial.testNGDay3">
+            <methods>
+                <exclude name="mobile.*"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
