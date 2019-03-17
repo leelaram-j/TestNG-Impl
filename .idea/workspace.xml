@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b6bc8e-1c25-43b8-8d53-aa71f5654875" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/groups_test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGTutorial/com/testng/tutorial/testNGDay1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNGTutorial/com/testng/tutorial/testNGDay1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGTutorial/com/testng/tutorial/testNGDay2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNGTutorial/com/testng/tutorial/testNGDay2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGTutorial/com/testng/tutorial/testNGDay3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNGTutorial/com/testng/tutorial/testNGDay3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGTutorial/com/testng/tutorial/testNGDay4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNGTutorial/com/testng/tutorial/testNGDay4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TestNGTutorial/com/testng/tutorial/testNGDay1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TestNGTutorial/com/testng/tutorial/testNGDay1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TestNGTutorial/com/testng/tutorial/testNGDay2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TestNGTutorial/com/testng/tutorial/testNGDay2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TestNGTutorial/com/testng/tutorial/testNGDay3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TestNGTutorial/com/testng/tutorial/testNGDay3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TestNGTutorial/com/testng/tutorial/testNGDay4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TestNGTutorial/com/testng/tutorial/testNGDay4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TestNGTutorial/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TestNGTutorial/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testng/tutorial/testNGDay1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/testng/tutorial/testNGDay1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testng/tutorial/testNGDay2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/testng/tutorial/testNGDay2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testng/tutorial/testNGDay3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/testng/tutorial/testNGDay3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testng/tutorial/testNGDay4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/testng/tutorial/testNGDay4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,10 +59,9 @@
       <file leaf-file-name="testNGDay3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/testng/tutorial/testNGDay3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+            <state relative-caret-position="-5">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
-                <element signature="e#134#135#0" expanded="true" />
                 <element signature="e#155#156#0" expanded="true" />
                 <element signature="e#216#217#0" expanded="true" />
                 <element signature="e#265#266#0" expanded="true" />
@@ -134,8 +116,8 @@
       <file leaf-file-name="groups_test.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/groups_test.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+            <state relative-caret-position="240">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -160,6 +142,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -491,14 +476,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552817392807</updated>
-      <workItem from="1552817394452" duration="6047000" />
+      <workItem from="1552817394452" duration="6557000" />
     </task>
+    <task id="LOCAL-00001" summary="updated testng notes">
+      <created>1552849751097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552849751097</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_lee_Documents_TestNGTutorial_testng_xml - 2019.03.17 at 17h 30m 01s.xml">
-      <configuration name="/Users/lee/Documents/TestNGTutorial/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_lee_Documents_TestNGTutorial_testng_xml - 2019.03.17 at 17h 53m 40s.xml">
       <configuration name="/Users/lee/Documents/TestNGTutorial/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -526,9 +516,12 @@
     <history-entry file="_Users_lee_Documents_TestNGTutorial_testng_xml - 2019.03.17 at 21h 08m 50s.xml">
       <configuration name="/Users/lee/Documents/TestNGTutorial/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_lee_Documents_TestNGTutorial_groups_test_xml - 2019.03.18 at 00h 35m 51s.xml">
+      <configuration name="/Users/lee/Documents/TestNGTutorial/groups_test.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6047000" />
+    <option name="totallyTimeSpent" value="6557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -544,11 +537,11 @@
       <window_info anchor="right" id="Maven Projects" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32969698" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info anchor="right" id="Database" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
@@ -600,6 +593,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated testng notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated testng notes" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -615,10 +612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng1.xml">
+    <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -641,10 +638,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/testng/tutorial/testNGDay3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        <state relative-caret-position="-5">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
-            <element signature="e#134#135#0" expanded="true" />
             <element signature="e#155#156#0" expanded="true" />
             <element signature="e#216#217#0" expanded="true" />
             <element signature="e#265#266#0" expanded="true" />
@@ -691,17 +687,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
+    <entry file="file://$PROJECT_DIR$/testng1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="58" />
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/groups_test.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        <state relative-caret-position="240">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
