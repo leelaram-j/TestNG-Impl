@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [parameterCheck]">
+  <parameter name="stg" value="stg1"/>
+  <parameter name="URL" value="https://stg1.bankbazaar.com"/>
+  <listeners>
+    <listener class-name="com.testng.tutorial.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="parameterizing_local(failed)">
+    <parameter name="stg" value="stg1"/>
+    <parameter name="URL" value="https://stg1.bankbazaar.com"/>
+    <classes>
+      <class name="com.testng.tutorial.testNGDay2">
+        <methods>
+          <include name="preRequisite"/>
+          <include name="listenerFailTest"/>
+          <include name="postrequisite"/>
+        </methods>
+      </class> <!-- com.testng.tutorial.testNGDay2 -->
+      <class name="com.testng.tutorial.testNGDay1">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.testng.tutorial.testNGDay1 -->
+    </classes>
+  </test> <!-- parameterizing_local(failed) -->
+</suite> <!-- Failed suite [parameterCheck] -->

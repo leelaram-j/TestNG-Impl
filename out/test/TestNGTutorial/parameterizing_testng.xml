@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parameterCheck" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="com.testng.tutorial.Listeners"/>
+    </listeners>
+    <parameter name="URL" value="https://www.bankbazaar.com"/>
+    <test name="parameterizing">
+        <classes>
+            <class name="com.testng.tutorial.testNGDay1"/>
+
+        </classes>
+    </test>
+    <test name="parameterizing_local">
+        <parameter name="URL" value="https://stg1.bankbazaar.com"/>
+        <parameter name="stg" value="stg1"/>
+        <classes>
+            <class name="com.testng.tutorial.testNGDay2"/>
+        </classes>
+    </test>
+</suite>
